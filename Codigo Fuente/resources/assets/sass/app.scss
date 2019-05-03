@@ -1,0 +1,168 @@
+
+// // Fonts
+// @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// // Variables
+@import "variables";
+
+// // Bootstrap
+// @import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// //Toastr
+// @import "~toastr/build/toastr.css";
+.hiddenColor{
+    display:none;
+}
+.btn-group-sm .btn-fab{
+    position: fixed !important;
+    right: 29px;
+    z-index: 1000;
+    width: 109px;
+   
+}
+.btn-group .btn-fab{
+    position: fixed !important;
+    right: 20px;
+    z-index: 1000000;
+    color:#fff;
+}
+
+#colorPedido{
+    bottom: 20px;
+}
+#nodisponible{
+    bottom: 80px
+}
+#pendiente{
+    bottom: 125px
+}
+#reservado{
+    bottom: 170px
+}
+#anulado{
+    bottom: 215px
+}
+#reservas{
+    bottom: 260px
+}
+#libre{
+    bottom: 305px
+}
+.color-libre{
+    background-color: #fff;
+    border: 1px solid #222;
+    color:#000;
+}
+.color-pendiente{
+    background-color: #FDD981ff;
+    color:#fff;
+}
+.color-reservado{
+    background-color: #2EB598;
+    color:#fff;
+}
+.color-anulado{
+    background-color: #D47676;
+    color:#fff;
+}
+.color-reservas{
+    background-color: #8CDCFF;
+    color:#fff;
+}
+.color-nodisponible{
+    background-color: #757575;
+    color:#fff;
+}
+.autocomplete {
+    position: relative;
+    width: 100%;
+  }
+  .autocomplete-results {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #eeeeee;
+    overflow: auto;    padding: 0;
+    margin: 0;
+    border: 1px solid #eeeeee;
+    height: 120px;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    z-index: 1000;
+    overflow-y: auto;
+  }
+  .autocomplete-result {
+    list-style: none;
+    text-align: left;
+    padding: 4px 2px;
+    cursor: pointer;
+    &:hover{
+      background-color: #4AAE9B;
+      color: white;
+    }
+    &.active{
+      background-color: #4AAE9B;
+      color: white;
+    }
+  }
+  .J-form-container{
+    width: 100%;
+    position: relative;
+    .J-form-search{
+      width: 100%;
+      padding-right: 80px;
+    }
+    .J-form-search-icon{
+      top: 3px;
+      right: 50px;
+      position: absolute;
+      border-radius: 50%;
+      background-color: rgba(0, 0, 0, 0);
+      border: 0;
+      color: #375a7f;
+      font-size: 15px;
+      line-height: 33px;
+      width: 30px;
+      height: 33px;
+      cursor: pointer;
+      &:hover{
+        background-color: rgba(42, 63, 84, .5);
+        color:#fff;
+      }
+      &:focus{
+        outline: 0;
+        background-color: rgba(42, 63, 84, .5);
+        color:#fff;
+      }
+      &.active{
+        background-color: rgba(42, 63, 84, .5);
+        color:#fff;
+      }
+    }
+    .J-form-search-button{
+      background-color: rgba(0, 0, 0, 0.0);
+      border-radius: 0 0.25rem 0.25rem 0;
+      cursor: pointer;
+      top:0;
+      right: 0;
+      position: absolute;
+      border: 0;
+      color:$primary_color;
+      width: 36px;
+      height: 36px;
+      &:hover{
+        background-color: rgba(42, 63, 84, .9);
+        color:#fff;
+      }
+      &:focus{
+        background-color: rgba(42, 63, 84, .9);
+        color:#fff;
+      }
+      &.active{
+        background-color: rgba(0, 150, 136, 0.9);
+        color:#fff;
+      }
+    }
+  }
+  
